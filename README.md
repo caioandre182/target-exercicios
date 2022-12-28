@@ -62,7 +62,7 @@ IMPORTANTE:
 a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
 b) Evite usar funções prontas, como, por exemplo, reverse;
 
-[Resposta Exercício 05]()
+[Resposta Exercício 05](https://github.com/caioandre182/target-exercicios/blob/main/target-exec/src/edu/target/exericios/Exercicio5.java)
 
 
 
