@@ -19,21 +19,25 @@ public class Exercicio2 {
         int numero1 = 0;
         int numero2 = 1;
 
-        while(numero2 != numeroEscolhido){
-            int var = numero2;
-            numero2 = numero2 + numero1;
-            numero1 = var;
-
-            if(numero2 > numeroEscolhido)
-                break;
-        }
-
-        System.out.println("Verificando se o número " + numeroEscolhido + " pertence a sequência de fibonacci...");
-        if(numero2 == numeroEscolhido)
+        if(numeroEscolhido == 0)
             System.out.println("O número " + numeroEscolhido + ", pertence a sequência de fibonacci.");
-        else{
-            System.out.println("O número " + numeroEscolhido + ", NÃO pertence a sequência de fibonacci.");
-        }
+        else {
 
+            while (numero2 != numeroEscolhido) {
+                int var = numero2;
+                numero2 = numero2 + numero1;
+                numero1 = var;
+
+                if (numero2 > numeroEscolhido)
+                    break;
+            }
+
+            System.out.println("Verificando se o número " + numeroEscolhido + " pertence a sequência de fibonacci...");
+            if (numero2 == numeroEscolhido)
+                System.out.println("O número " + numeroEscolhido + ", pertence a sequência de fibonacci.");
+            else {
+                System.out.println("O número " + numeroEscolhido + ", NÃO pertence a sequência de fibonacci.");
+            }
+        }
     }
 }
